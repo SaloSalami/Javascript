@@ -12,9 +12,3 @@ reiniciarBtn.addEventListener("click", function () {
     numero.textContent = 0;
 });
 
-if (numero.textContent >= 10) {
-    numero.style.color = "green";
-}
-else if (numero.textContent <= 10) {
-    numero.style.color = "black";
-}
